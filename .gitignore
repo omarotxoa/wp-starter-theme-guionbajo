@@ -1,0 +1,55 @@
+node_modules/
+
+.DS_Store
+.gitattributes
+.idea
+.quarantine/
+.tmb/
+.well-known/
+/robots.txt
+
+# WordPress core
+/wp-admin/
+/wp-includes/
+/apple-touch-icon-precomposed.png
+/apple-touch-icon.png
+/favicon.ico
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-config.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+
+# WP Engine
+/_wpeprivate/
+
+
+# wp-content
+# /wp-content/*
+# !/wp-content/plugins/
+
+# !/wp-content/themes/
+# /wp-content/themes/*
+# !/wp-content/themes/theme-name/
+
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+*.exe
+*.webm
